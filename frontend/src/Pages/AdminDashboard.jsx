@@ -1,7 +1,7 @@
 import "./AdminDashboard.css";
 import { useNavigate } from "react-router-dom";
 import { useEffect, useState } from "react";
-import Sidebar from "../components/UserDashboard/Sidebar";
+import Sidebar from "../components/userdashboard/Sidebar";
 import { allAppointment, } from "../authApi";
 import DocList from "../components/Card";
 function AdminDashboard() {

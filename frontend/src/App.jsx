@@ -16,7 +16,7 @@ import About from "./Pages/About";
 import Contact from "./Pages/Contact";
 import Login from "./Pages/Login";
 import Register from "./Pages/Register";
-import UserDashboard from "./Pages/UserDashboard";
+import UserDashboard from "./Pages/userdashboard";
 import AdminDashboard from "./Pages/AdminDashboard";
 
 // Common Components
