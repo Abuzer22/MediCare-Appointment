@@ -1,0 +1,111 @@
+.doctors-section{
+padding:80px;
+background:#f8fbff;
+}
+
+.doctors-section h1{
+text-align:center;
+font-size:42px;
+color:#0077ff;
+}
+
+.doctors-section p{
+text-align:center;
+margin:15px 0 40px;
+color:#555;
+}
+
+.doctor-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:30px;
+}
+
+.doctor-card{
+    background:#fff;
+    padding:20px;
+    border-radius:15px;
+    text-align:center;
+    box-shadow:0 8px 20px rgba(0,0,0,.1);
+    transition:.3s;
+
+    display:flex;
+    flex-direction:column;
+    align-items:center;   /* Image aur sab content center me */
+}
+
+.doctor-card:hover{
+transform:translateY(-8px);
+}
+
+.doctor-card img{
+width:140px;
+height:140px;
+border-radius:50%;
+object-fit:cover;
+margin-bottom:15px;
+
+}
+
+.doctor-card h2{
+font-size:22px;
+}
+
+.doctor-card h4{
+color:#0077ff;
+margin:10px 0;
+}
+
+.rating{
+margin:10px 0;
+font-size:18px;
+}
+
+.view-btn,
+.book-btn{
+width:100%;
+padding:12px;
+margin-top:10px;
+border:none;
+border-radius:30px;
+cursor:pointer;
+font-size:16px;
+}
+
+.view-btn{
+background:#0077ff;
+color:white;
+}
+
+.book-btn{
+background:#00b894;
+color:white;
+}
+
+.doctor-details{
+margin-top:60px;
+display:flex;
+gap:30px;
+align-items:center;
+background:white;
+padding:30px;
+border-radius:20px;
+box-shadow:0 10px 20px rgba(0,0,0,.1);
+}
+
+
+.doctor-card img{
+    width:140px;
+    height:140px;
+    border-radius:50%;
+    object-fit:cover;
+    display:block;
+    margin:0 auto 15px;
+}
+
+@media(max-width:768px){
+.doctor-details{
+flex-direction:column;
+text-align:center;
+}
+}

@@ -1,0 +1,94 @@
+.register{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:#eef7ff;
+    padding:30px;
+}
+
+.register-box{
+    width:450px;
+    background:#fff;
+    padding:40px;
+    border-radius:20px;
+    box-shadow:0 10px 25px rgba(0,0,0,.15);
+}
+
+.register-box h1{
+    text-align:center;
+    color:#0077ff;
+    margin-bottom:10px;
+}
+
+.register-box p{
+    text-align:center;
+    color:#555;
+    margin-bottom:25px;
+}
+
+.register-box form{
+    display:flex;
+    flex-direction:column;
+    gap:18px;
+}
+
+.register-box input{
+    padding:15px;
+    border:1px solid #ccc;
+    border-radius:10px;
+    font-size:16px;
+    outline:none;
+}
+
+.register-box input:focus{
+    border-color:#0077ff;
+}
+
+.register-box button{
+    padding:15px;
+    background:#0077ff;
+    color:white;
+    border:none;
+    border-radius:10px;
+    font-size:17px;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.register-box button:hover{
+    background:#005ecb;
+}
+
+.login-link{
+    margin-top:20px;
+}
+
+.login-link a{
+    color:#0077ff;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+.login-link a:hover{
+    text-decoration:underline;
+}
+
+@media(max-width:500px){
+
+.register-box{
+    width:100%;
+    padding:25px;
+}
+
+}
+.register-box select {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  outline: none;
+  box-sizing: border-box;
+}
